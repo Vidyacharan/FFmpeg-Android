@@ -8,6 +8,8 @@ This project is a continued fork of [FFmpeg-Android](https://github.com/bravobit
 
 The target of this fork is to build FFmpeg also for 64 bit ARM architecture and keep the executable size as minimized as possible. This fork does not include the x86 FFmpeg executable and mainly targets real devices which either use arm or arm64. The executable's size is only ~ 8MB for each architecture.
 
+FFmpeg is built to support the most common video, audio and image formats. More details can be found in the "Build configuration" section
+
 ### Architectures
 FFmpeg-Android runs on the following architectures:
 - armv7
