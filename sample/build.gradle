@@ -4,7 +4,7 @@ android {
     compileSdkVersion 27
 
     defaultConfig {
-        applicationId "nl.bravobit.ffmpeg.example"
+        applicationId "com.tsoumalis.ffmpeg.example"
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
@@ -32,7 +32,6 @@ dependencies {
 
     // Misc
     implementation 'com.jakewharton.timber:timber:4.6.1'
-
     // FFmpeg project
     implementation project(':android-ffmpeg')
 }
