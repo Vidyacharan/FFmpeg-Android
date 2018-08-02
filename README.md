@@ -12,7 +12,6 @@ FFmpeg is built to support the most common video, audio and image formats. More 
 
 ### Architectures
 FFmpeg-Android runs on the following architectures:
-- armv7
 - armv7-neon
 - armv8
 
@@ -28,7 +27,7 @@ FFmpeg in this project was built with the following libraries:
 - libuuid `1.0.3`
 
 ### Features
-- Uses the latest FFmpeg release `Version 4 commit 37abfe8`
+- Uses the latest stable FFmpeg release `Version 4.0.2`
 - Uses native CPU capabilities on ARM architectures (optimized for NEON and ARM64)
 - Multithreading
 
@@ -51,7 +50,7 @@ allprojects {
 2. Add Gradle dependency in your module's build.gradle:
 ```gradle
 dependencies {
-	implementation 'com.github.tsoumalis:FFmpeg-Android:v1.0'
+	implementation 'com.github.tsoumalis:FFmpeg-Android:v1.0.2'
 }
 ```
 
